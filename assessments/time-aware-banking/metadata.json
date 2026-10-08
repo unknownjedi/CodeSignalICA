@@ -1,0 +1,33 @@
+{
+  "id": "time-aware-banking",
+  "title": "Time-Aware Banking System",
+  "description": "Create accounts and deposits, rank accounts by volume, run two-step transfers with expiry, and merge accounts while preserving balances and history.",
+  "durationMinutes": 90,
+  "language": "javascript",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Accounts & Deposits",
+      "difficulty": "easy",
+      "timeoutMs": 5000
+    },
+    {
+      "level": 2,
+      "title": "Ranking",
+      "difficulty": "medium",
+      "timeoutMs": 5000
+    },
+    {
+      "level": 3,
+      "title": "Transfers",
+      "difficulty": "hard",
+      "timeoutMs": 5000
+    },
+    {
+      "level": 4,
+      "title": "Merging Accounts",
+      "difficulty": "hard",
+      "timeoutMs": 5000
+    }
+  ]
+}

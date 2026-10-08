@@ -1,0 +1,33 @@
+{
+  "id": "object-manager-ttl",
+  "title": "In-Memory Object Manager with TTL",
+  "description": "Store objects in memory with add/update/retrieve, TTL expiration as timestamps advance, versioned history, and snapshots.",
+  "durationMinutes": 90,
+  "language": "javascript",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Objects",
+      "difficulty": "easy",
+      "timeoutMs": 5000
+    },
+    {
+      "level": 2,
+      "title": "TTL",
+      "difficulty": "medium",
+      "timeoutMs": 5000
+    },
+    {
+      "level": 3,
+      "title": "History",
+      "difficulty": "hard",
+      "timeoutMs": 5000
+    },
+    {
+      "level": 4,
+      "title": "Snapshots",
+      "difficulty": "hard",
+      "timeoutMs": 5000
+    }
+  ]
+}

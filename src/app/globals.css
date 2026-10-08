@@ -1,0 +1,160 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #0b0e13;
+  color: #d7dce4;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2a3140 transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #2a3140;
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.markdown {
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: #b8c0cc;
+}
+
+.markdown > *:first-child {
+  margin-top: 0;
+}
+
+.markdown h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #f1f4f9;
+  margin: 0 0 0.75rem;
+}
+
+.markdown h2 {
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: #e8edf5;
+  margin: 1.4rem 0 0.5rem;
+}
+
+.markdown h3 {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #e8edf5;
+  margin: 1.1rem 0 0.4rem;
+}
+
+.markdown p {
+  margin: 0.6rem 0;
+}
+
+.markdown ul,
+.markdown ol {
+  margin: 0.6rem 0;
+  padding-left: 1.35rem;
+}
+
+.markdown ul {
+  list-style: disc;
+}
+
+.markdown ol {
+  list-style: decimal;
+}
+
+.markdown li {
+  margin: 0.3rem 0;
+}
+
+.markdown code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: #1a2130;
+  border: 1px solid #232c3d;
+  padding: 0.08rem 0.32rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: #dbe3ef;
+}
+
+.markdown pre {
+  background: #10141c;
+  border: 1px solid #1e2635;
+  border-radius: 8px;
+  padding: 0.75rem 0.9rem;
+  overflow-x: auto;
+  margin: 0.8rem 0;
+}
+
+.markdown pre code {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+.markdown table {
+  border-collapse: collapse;
+  margin: 0.8rem 0;
+  font-size: 0.82rem;
+  width: 100%;
+}
+
+.markdown th,
+.markdown td {
+  border: 1px solid #232b3a;
+  padding: 0.35rem 0.6rem;
+  text-align: left;
+}
+
+.markdown th {
+  background: #151a24;
+  color: #e8edf5;
+}
+
+.markdown blockquote {
+  border-left: 3px solid #3b82f6;
+  padding-left: 0.8rem;
+  color: #9aa4b2;
+  margin: 0.8rem 0;
+}
+
+.markdown hr {
+  border: none;
+  border-top: 1px solid #232b3a;
+  margin: 1.2rem 0;
+}
+
+.markdown a {
+  color: #60a5fa;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.markdown strong {
+  color: #f1f4f9;
+  font-weight: 600;
+}

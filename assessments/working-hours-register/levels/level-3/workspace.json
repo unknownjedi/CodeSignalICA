@@ -1,0 +1,9 @@
+{
+  "entry": "src/working-hours.js",
+  "files": [
+    { "path": "README.md", "editable": false },
+    { "path": "src/constants.js", "editable": false },
+    { "path": "src/intervals.js", "editable": false },
+    { "path": "src/working-hours.js", "editable": true }
+  ]
+}

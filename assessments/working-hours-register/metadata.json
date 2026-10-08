@@ -1,0 +1,33 @@
+{
+  "id": "working-hours-register",
+  "title": "Working Hours Register",
+  "description": "Build an employee working-hours and compensation system, level by level: badge tracking, rankings, promotions with historical salary, and double-pay grant periods.",
+  "durationMinutes": 90,
+  "language": "javascript",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Employee Tracking",
+      "difficulty": "easy",
+      "timeoutMs": 5000
+    },
+    {
+      "level": 2,
+      "title": "Top N Employees",
+      "difficulty": "medium",
+      "timeoutMs": 5000
+    },
+    {
+      "level": 3,
+      "title": "Promotions & Historical Salary",
+      "difficulty": "hard",
+      "timeoutMs": 5000
+    },
+    {
+      "level": 4,
+      "title": "Double-Pay Grant Periods",
+      "difficulty": "hard",
+      "timeoutMs": 5000
+    }
+  ]
+}

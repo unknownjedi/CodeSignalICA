@@ -1,0 +1,33 @@
+{
+  "id": "task-management-system",
+  "title": "Task Management System",
+  "description": "Build an in-memory task manager with users, quotas, expiring assignments, completion tracking, and overdue reporting.",
+  "durationMinutes": 90,
+  "language": "javascript",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Tasks",
+      "difficulty": "easy",
+      "timeoutMs": 5000
+    },
+    {
+      "level": 2,
+      "title": "Search & Ordering",
+      "difficulty": "medium",
+      "timeoutMs": 5000
+    },
+    {
+      "level": 3,
+      "title": "Users, Quotas & Assignments",
+      "difficulty": "hard",
+      "timeoutMs": 5000
+    },
+    {
+      "level": 4,
+      "title": "Completion & Overdue",
+      "difficulty": "hard",
+      "timeoutMs": 5000
+    }
+  ]
+}

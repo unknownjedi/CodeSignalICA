@@ -1,0 +1,33 @@
+{
+  "id": "cloud-file-storage",
+  "title": "Cloud/File Storage System",
+  "description": "Implement an in-memory file store with copy, prefix/suffix search, users with capacity limits, ownership tracking, and compression.",
+  "durationMinutes": 90,
+  "language": "javascript",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Files",
+      "difficulty": "easy",
+      "timeoutMs": 5000
+    },
+    {
+      "level": 2,
+      "title": "Name Search",
+      "difficulty": "medium",
+      "timeoutMs": 5000
+    },
+    {
+      "level": 3,
+      "title": "Users & Ownership",
+      "difficulty": "hard",
+      "timeoutMs": 5000
+    },
+    {
+      "level": 4,
+      "title": "Compression",
+      "difficulty": "hard",
+      "timeoutMs": 5000
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "workspace-credit-ledger",
+  "title": "Timestamped Workspace Credit Ledger",
+  "description": "A timestamped credit ledger with deposits, transfers, spending, delayed cashback, rankings, merges, status checks, and point-in-time balance queries.",
+  "durationMinutes": 90,
+  "language": "javascript",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Deposits",
+      "difficulty": "easy",
+      "timeoutMs": 5000
+    },
+    {
+      "level": 2,
+      "title": "Transfers & Ranking",
+      "difficulty": "medium",
+      "timeoutMs": 5000
+    },
+    {
+      "level": 3,
+      "title": "Spending & Cashback",
+      "difficulty": "hard",
+      "timeoutMs": 5000
+    },
+    {
+      "level": 4,
+      "title": "Merging & Status",
+      "difficulty": "hard",
+      "timeoutMs": 5000
+    }
+  ]
+}
